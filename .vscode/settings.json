@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.r": "r",
-        "*.dll": "cpp"
+        "*.dll": "cpp",
+        "ctime": "cpp"
     }
 }

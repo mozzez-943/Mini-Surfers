@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Users/Moeez/Downloads/freeglut-3.6.0/freeglut-3.6.0/include",
-                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include"
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib"
             ],
             "defines": [
                 "_DEBUG",
