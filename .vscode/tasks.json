@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "-o",
+                "${workspaceFolder}/main",
+                "-I${workspaceFolder}/path/to/GLUT/include",
+                "-I${workspaceFolder}/path/to/CUDA/include",
+                "-L${workspaceFolder}/path/to/GLUT/lib",
+                "-L${workspaceFolder}/path/to/CUDA/lib",
+                "-lglut",
+                "-lGL",
+                "-lcudart"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
