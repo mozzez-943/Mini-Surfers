@@ -2,6 +2,7 @@
     "files.associations": {
         "*.r": "r",
         "*.dll": "cpp",
-        "ctime": "cpp"
+        "ctime": "cpp",
+        "iostream": "cpp"
     }
 }
