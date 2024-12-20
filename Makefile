@@ -9,7 +9,7 @@ CXXFLAGS = -I/usr/include -I/usr/local/cuda/include
 LDFLAGS = -L/usr/lib -L/usr/local/cuda/lib64 -lGL -lGLU -lglut -lcuda -lcudart
 
 # Source files
-SRCS = cuda_subway_surfers.cu maingame.cu
+SRCS = cuda_subway_surfers.cu main.cu
 VERIFICATION_SRCS = cudaverification.cpp
 
 # Output executables
